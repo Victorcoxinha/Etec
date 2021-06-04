@@ -1,0 +1,93 @@
+*{
+    padding: 0px;
+    margin: 0px;
+  }
+#menu ul{
+    position: fixed;
+    z-index: 1000 ;
+    top: 0;
+    list-style: none;
+    margin-left: 10%;
+    border:ridge 4px;
+    padding: 15px 16px;
+    padding-right: 7%;
+    background-image: linear-gradient(to right,#836FFF,#FFF5EE);
+}
+#menu ul li{
+    display: inline;
+    text-decoration: none;
+    padding: 0px 40px;
+    font-size:large; 
+}
+#menu ul li a{
+    text-decoration: none;
+    color: black;
+   
+}
+#menu ul li:hover{
+    background-color: #A020F0;
+    border-radius: 50%;
+    transition:all 0.4s ease;
+}
+
+ body{
+    text-align:center;
+    text-align: left;
+    background-color:#6A5ACD;
+}
+#conteudo{
+    margin-top:-2%;
+    margin-right: 15%;
+    margin-left: 10% ;
+    background-color:#FFF5EE;
+}
+footer p a{
+    text-decoration: none;
+    color: black;
+}
+aside{
+    position: absolute;
+    left: 70%;
+    right: 16%;
+    border: ridge 2px;
+    background-color: burlywood; 
+    padding: 30px 30px;
+    
+}  
+header{
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: large;
+}
+section{
+   margin-left: 8%;
+   margin-right: 20%; 
+   font-size: large;
+   padding: 8px 0px;
+}
+footer{
+    text-align: center;
+    font-size:large ;
+}
+p{
+    padding: 5px 4px;
+}
+.foto{
+    margin-left: 25%;
+}
+h2{
+    margin-top: 100px;
+}
+h1{
+    position: absolute;
+    top: 110px;
+    margin-left: 300px;
+}
+#logo{
+    border-right: 2px solid #FFF5EE;
+    padding-right: 1% ;
+}
+
+
+
+
